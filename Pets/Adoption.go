@@ -42,7 +42,7 @@ func main() {
 func options() {
 	switch choice {
 	case 1:
-		fmt.Println("[---Application Form---]")
+		fmt.Println("[-Application Form-]")
 		fmt.Println("Name: ")
 		fmt.Scanln(&name)
 		fmt.Println("Age: ")
@@ -68,7 +68,7 @@ func options() {
 		fmt.Scanln(&alladpt)
 		break
 	case 2:
-		fmt.Println("[---Scheduling Form---]")
+		fmt.Println("[-Scheduling Form-]")
 		fmt.Println("[Full Name: ]")
 		fmt.Scanln(&name)
 		fmt.Println("[Phone: ]")
@@ -90,7 +90,7 @@ func options() {
 		fmt.Scanln(&cont)
 		break
 	case 4:
-		fmt.Println("[---Shelter Visits---]")
+		fmt.Println("[-Shelter Visits-]")
 		fmt.Println("Name: ")
 		fmt.Scanln(&name)
 		fmt.Println("Address: ")
